@@ -1,0 +1,56 @@
+{
+    "name": "jewel2",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "ArcadeMIDI": "github:UnsignedArduino/ArcadeMIDI#af121437d59fd6b2cec54501ac437db1eaa766f5",
+        "Stats": "github:UnsignedArduino/Stats#758e35856bd5565e5d0e25c95cccfac79b7fc168",
+        "arcade-fancy-text": "github:riknoll/arcade-fancy-text#v0.0.10"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "triangles.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "engine.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.12.30",
+        "tag": "v1.12.30",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/33228b1cc7e1bea3f728c26a6047bdef35fd2c09",
+        "target": "1.12.36",
+        "pxt": "8.5.41",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj",
+    "palette": [
+        "#000000",
+        "#6B6974",
+        "#3C3B45",
+        "#231D24",
+        "#000000",
+        "#943C0C",
+        "#7C2A19",
+        "#6B403D",
+        "#4D071D",
+        "#31181E",
+        "#7C4D19",
+        "#5C200A",
+        "#CCA171",
+        "#9A6654",
+        "#55634D",
+        "#3F4339"
+    ]
+}
